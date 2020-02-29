@@ -1,8 +1,8 @@
-package com.redefocus.login.spawn.storage;
+package com.redecommunity.login.spawn.storage;
 
-import com.redefocus.api.spigot.SpigotAPI;
-import com.redefocus.api.spigot.util.serialize.LocationSerialize;
-import com.redefocus.common.shared.databases.mysql.dao.Table;
+import com.redecommunity.api.spigot.SpigotAPI;
+import com.redecommunity.api.spigot.util.serialize.LocationSerialize;
+import com.redecommunity.common.shared.databases.mysql.dao.Table;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

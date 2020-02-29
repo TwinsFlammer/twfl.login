@@ -1,4 +1,4 @@
-package com.redefocus.login.listeners;
+package com.redecommunity.login.listeners;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;

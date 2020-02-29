@@ -1,6 +1,8 @@
-package com.redefocus.login.listeners;
+package com.redecommunity.login.listeners;
 
+import com.redecommunity.login.spawn.manager.SpawnManager;
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -18,5 +20,9 @@ public class PlayerJoinListener implements Listener {
             player1.hidePlayer(player);
             player.hidePlayer(player1);
         });
+
+        Location location = SpawnManager.DEFAULT_SPAWN;
+
+        if (location != null) player.teleport(location);
     }
 }

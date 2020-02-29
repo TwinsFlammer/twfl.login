@@ -1,15 +1,13 @@
-package com.redefocus.login;
+package com.redecommunity.login;
 
-import com.redefocus.api.spigot.FocusPlugin;
-import com.redefocus.common.shared.databases.mysql.data.MySQL;
-import com.redefocus.login.manager.StartManager;
+import com.redecommunity.api.spigot.CommunityPlugin;
+import com.redecommunity.login.manager.StartManager;
 import lombok.Getter;
-import org.json.simple.JSONObject;
 
 /**
  * Created by @SrGutyerrez
  */
-public class Login extends FocusPlugin {
+public class Login extends CommunityPlugin {
     @Getter
     private static Login instance;
 
@@ -24,6 +22,5 @@ public class Login extends FocusPlugin {
 
     @Override
     public void onDisablePlugin() {
-
     }
 }

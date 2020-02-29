@@ -1,7 +1,7 @@
-package com.redefocus.login.manager;
+package com.redecommunity.login.manager;
 
-import com.redefocus.common.shared.util.ClassGetter;
-import com.redefocus.login.Login;
+import com.redecommunity.common.shared.util.ClassGetter;
+import com.redecommunity.login.Login;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 

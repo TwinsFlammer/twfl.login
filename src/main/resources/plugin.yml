@@ -1,0 +1,4 @@
+name: Login
+main: com.redecommunity.login.Login
+version: 1.0-SNAPSHOT
+author: Gutyerrez

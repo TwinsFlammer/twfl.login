@@ -1,8 +1,8 @@
-package com.redefocus.login.listeners;
+package com.redecommunity.login.listeners;
 
-import com.redefocus.common.shared.permissions.group.GroupNames;
-import com.redefocus.common.shared.permissions.user.data.User;
-import com.redefocus.common.shared.permissions.user.manager.UserManager;
+import com.redecommunity.common.shared.permissions.group.GroupNames;
+import com.redecommunity.common.shared.permissions.user.data.User;
+import com.redecommunity.common.shared.permissions.user.manager.UserManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
