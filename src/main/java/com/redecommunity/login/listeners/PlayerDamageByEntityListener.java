@@ -14,8 +14,7 @@ public class PlayerDamageByEntityListener implements Listener {
     @EventHandler(priority = EventPriority.MONITOR)
     public void onDamage(EntityDamageByEntityEvent event) {
         Entity entity = event.getEntity();
-        Entity damager = event.getDamager();
 
-        if (entity instanceof Player && damager instanceof Player) event.setCancelled(true);
+        if (entity instanceof Player) event.setCancelled(true);
     }
 }
