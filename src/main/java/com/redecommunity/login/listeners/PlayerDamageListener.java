@@ -24,7 +24,7 @@ public class PlayerDamageListener implements Listener {
 
                 Location location = SpawnManager.DEFAULT_SPAWN;
 
-                entity.teleport(location);
+                if (location != null) entity.teleport(location);
             }
         }
     }
