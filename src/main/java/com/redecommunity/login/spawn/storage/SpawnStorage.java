@@ -1,6 +1,5 @@
 package com.redecommunity.login.spawn.storage;
 
-import com.redecommunity.api.spigot.SpigotAPI;
 import com.redecommunity.api.spigot.util.serialize.LocationSerialize;
 import com.redecommunity.common.shared.databases.mysql.dao.Table;
 
@@ -20,7 +19,7 @@ public class SpawnStorage extends Table {
 
     @Override
     public String getDatabaseName() {
-        return SpigotAPI.getDefaultDatabaseName("server");
+        return "server";
     }
 
     @Override
