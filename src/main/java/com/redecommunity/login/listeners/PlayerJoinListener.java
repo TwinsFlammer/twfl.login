@@ -1,6 +1,6 @@
 package com.redecommunity.login.listeners;
 
-import com.redecommunity.login.spawn.manager.SpawnManager;
+import com.redecommunity.api.spigot.spawn.manager.SpawnManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
