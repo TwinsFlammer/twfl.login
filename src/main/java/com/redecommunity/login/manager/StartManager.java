@@ -3,7 +3,6 @@ package com.redecommunity.login.manager;
 import com.redecommunity.common.shared.databases.mysql.dao.Table;
 import com.redecommunity.common.shared.util.ClassGetter;
 import com.redecommunity.login.Login;
-import com.redecommunity.login.spawn.manager.SpawnManager;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 
@@ -14,9 +13,7 @@ public class StartManager {
     public StartManager() {
         new ListenerManager();
 
-        new DaoManager();
-
-        new DataManager();
+        new TableManager();
     }
 }
 
@@ -40,8 +37,8 @@ class ListenerManager {
     }
 }
 
-class DaoManager {
-    DaoManager() {
+class TableManager {
+    TableManager() {
         ClassGetter.getClassesForPackage(Login.class)
                 .forEach(clazz -> {
                     if (Table.class.isAssignableFrom(clazz)) {
@@ -54,11 +51,5 @@ class DaoManager {
                         }
                     }
                 });
-    }
-}
-
-class DataManager {
-    DataManager() {
-        new SpawnManager();
     }
 }
