@@ -18,8 +18,8 @@ public class PlayerMoveListener implements Listener {
         Location fromLocation = event.getFrom();
 
         if (fromLocation.getX() == toLocation.getX()
-                || fromLocation.getY() == toLocation.getY()
-                || fromLocation.getZ() == toLocation.getZ()) return;
+                && fromLocation.getY() == toLocation.getY()
+                && fromLocation.getZ() == toLocation.getZ()) return;
 
         player.teleport(fromLocation);
     }
