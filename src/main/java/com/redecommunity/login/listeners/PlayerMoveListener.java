@@ -1,5 +1,6 @@
 package com.redecommunity.login.listeners;
 
+import com.redecommunity.api.spigot.spawn.manager.SpawnManager;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -14,13 +15,12 @@ public class PlayerMoveListener implements Listener {
     public void onMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
 
-        Location toLocation = event.getTo();
-        Location fromLocation = event.getFrom();
+        Location location = event.getTo();
 
-        if (fromLocation.getX() == toLocation.getX()
-                && fromLocation.getY() == toLocation.getY()
-                && fromLocation.getZ() == toLocation.getZ()) return;
+        if (location.getY() < 1) {
+            Location spawnLocation = SpawnManager.DEFAULT_SPAWN;
 
-        player.teleport(fromLocation);
+            player.teleport(spawnLocation);
+        }
     }
 }
