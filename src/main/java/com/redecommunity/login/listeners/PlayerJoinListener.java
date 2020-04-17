@@ -16,6 +16,8 @@ public class PlayerJoinListener implements Listener {
     public void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
+        player.getInventory().clear();
+
         Bukkit.getOnlinePlayers().forEach(player1 -> {
             player1.hidePlayer(player);
             player.hidePlayer(player1);
