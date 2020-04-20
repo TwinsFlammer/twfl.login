@@ -1,6 +1,6 @@
-package com.redecommunity.login.listeners;
+package com.redefocus.login.listeners;
 
-import com.redecommunity.api.spigot.spawn.manager.SpawnManager;
+import com.redefocus.api.spigot.spawn.manager.SpawnManager;
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;

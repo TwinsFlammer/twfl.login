@@ -1,8 +1,8 @@
-package com.redecommunity.login.manager;
+package com.redefocus.login.manager;
 
-import com.redecommunity.common.shared.databases.mysql.dao.Table;
-import com.redecommunity.common.shared.util.ClassGetter;
-import com.redecommunity.login.Login;
+import com.redefocus.common.shared.databases.mysql.dao.Table;
+import com.redefocus.common.shared.util.ClassGetter;
+import com.redefocus.login.Login;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 

@@ -1,4 +1,4 @@
-package com.redecommunity.login.listeners;
+package com.redefocus.login.listeners;
 
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockState;

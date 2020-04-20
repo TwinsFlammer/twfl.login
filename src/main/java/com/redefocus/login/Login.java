@@ -1,14 +1,14 @@
-package com.redecommunity.login;
+package com.redefocus.login;
 
-import com.redecommunity.api.spigot.CommunityPlugin;
-import com.redecommunity.login.manager.StartManager;
+import com.redefocus.api.spigot.FocusPlugin;
+import com.redefocus.login.manager.StartManager;
 import lombok.Getter;
 import org.bukkit.Server;
 
 /**
  * Created by @SrGutyerrez
  */
-public class Login extends CommunityPlugin {
+public class Login extends FocusPlugin {
     @Getter
     private static Login instance;
 

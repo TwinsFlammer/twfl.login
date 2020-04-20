@@ -1,4 +1,4 @@
-package com.redecommunity.login.listeners;
+package com.redefocus.login.listeners;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
