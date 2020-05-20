@@ -1,8 +1,8 @@
-package com.redefocus.login.listeners;
+package br.com.twinsflammer.login.listeners;
 
-import com.redefocus.common.shared.permissions.group.GroupNames;
-import com.redefocus.common.shared.permissions.user.data.User;
-import com.redefocus.common.shared.permissions.user.manager.UserManager;
+import br.com.twinsflammer.common.shared.permissions.group.GroupNames;
+import br.com.twinsflammer.common.shared.permissions.user.data.User;
+import br.com.twinsflammer.common.shared.permissions.user.manager.UserManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
 import org.bukkit.event.EventHandler;

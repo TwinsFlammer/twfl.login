@@ -1,8 +1,8 @@
-package com.redefocus.login.manager;
+package br.com.twinsflammer.login.manager;
 
-import com.redefocus.common.shared.databases.mysql.dao.Table;
-import com.redefocus.common.shared.util.ClassGetter;
-import com.redefocus.login.Login;
+import br.com.twinsflammer.login.Login;
+import br.com.twinsflammer.common.shared.databases.mysql.dao.Table;
+import br.com.twinsflammer.common.shared.util.ClassGetter;
 import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 

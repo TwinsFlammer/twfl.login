@@ -1,5 +1,5 @@
 name: Login
-main: com.redefocus.login.Login
+main: br.com.twinsflammer.login.Login
 version: 1.0-SNAPSHOT
 author: Gutyerrez
 depend:

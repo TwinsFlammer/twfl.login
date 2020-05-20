@@ -1,6 +1,6 @@
-package com.redefocus.login.listeners;
+package br.com.twinsflammer.login.listeners;
 
-import com.redefocus.api.spigot.spawn.manager.SpawnManager;
+import br.com.twinsflammer.api.spigot.spawn.manager.SpawnManager;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

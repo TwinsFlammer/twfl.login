@@ -1,7 +1,7 @@
-package com.redefocus.login;
+package br.com.twinsflammer.login;
 
-import com.redefocus.api.spigot.FocusPlugin;
-import com.redefocus.login.manager.StartManager;
+import br.com.twinsflammer.api.spigot.FocusPlugin;
+import br.com.twinsflammer.login.manager.StartManager;
 import lombok.Getter;
 import org.bukkit.Server;
 

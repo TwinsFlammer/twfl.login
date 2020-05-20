@@ -1,4 +1,4 @@
-package com.redefocus.login.listeners;
+package br.com.twinsflammer.login.listeners;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
