@@ -1,6 +1,6 @@
 package br.com.twinsflammer.login;
 
-import br.com.twinsflammer.api.spigot.FocusPlugin;
+import br.com.twinsflammer.api.spigot.TwinsPlugin;
 import br.com.twinsflammer.login.manager.StartManager;
 import lombok.Getter;
 import org.bukkit.Server;
@@ -8,7 +8,7 @@ import org.bukkit.Server;
 /**
  * Created by @SrGutyerrez
  */
-public class Login extends FocusPlugin {
+public class Login extends TwinsPlugin {
     @Getter
     private static Login instance;
 
